@@ -1,0 +1,3 @@
+#!/bin/bash
+ssh=$(type -fp ssh)
+$ssh -p $LC_FSSH_PORT -l $LC_FSSH_USER localhost exec $@
